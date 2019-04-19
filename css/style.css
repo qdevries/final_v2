@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 html,body{
-	background-color:#ffffffe4;
+	background-color:#d1dce3e4;
 	height:100%;
 }
 
@@ -16,7 +16,7 @@ h1{
 
 h2{
     font-family: 'Hind', sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 h3{
@@ -24,37 +24,15 @@ h3{
 	font-size: 1em;
 	/*display: none;*/
 }
-
 p{
 	font-family: 'Hind', sans-serif;
 	font-size: 12pt;
-	color: black;
-}
-
-ul{
-	font-family: 'Hind', sans-serif;
-	font-size: 12pt;
-	font-weight: 200;
-	color: black;
-}
-
-li{
-	font-family: 'Hind', sans-serif;
-	font-size: 12pt;
 	font-weight: 100;
-	font-weight: 200;
 	color: black;
 }
 
 a{
-	color: black;
-}
-
-
-.footer{
-	color:black;
-	font-family: 'Hind', sans-serif;
-	font-size: 10pt;
+	color: purple;
 }
 
 /*------accordion------*/
@@ -128,7 +106,6 @@ fieldset {
 .topnav {
 	background-color: #2B5AB3;
 	overflow: hidden;
-
 }
 
 /* Style the links inside the navigation bar */
@@ -145,14 +122,14 @@ fieldset {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-	background-color: rgb(80, 95, 233);
-	color: black;
+	background-color: rgb(32, 187, 128);
+	color: red;
 }
 
 /* Add an active class to highlight the current page */
 .current {
-	background-color: rgb(16, 38, 79);
-	color: black;
+	background-color: #4CAF50;
+	color: white;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -164,10 +141,10 @@ fieldset {
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
-  background-color: rgb(36, 36, 36);
+  background-color: transparent;
   width: 500px;
   height: 500px;
-	border: 1px solid rgb(rgb(0, 0, 0));
+	border: 1px solid #aa1919;
 }
 
 /* This container is needed to position the front and back side */
@@ -195,14 +172,14 @@ fieldset {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: white;
+  background-color: #bbb;
 	color: black;
 }
 
 /* Style the back side */
 .flip-card-back {
-  background-color: rgb(black);
-  color: white;
+  background-color: dodgerblue;
+  color: black;
   transform: rotateY(180deg);
 }
 
@@ -293,7 +270,7 @@ fieldset {
 
 .callout-header {
   padding: 15px 15px;
-	background-color: #274f9a;
+	background-color: #2B5AB3;
   font-size: 30px;
 	color: white;
 }
