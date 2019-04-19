@@ -106,7 +106,6 @@ fieldset {
 .topnav {
 	background-color: #2B5AB3;
 	overflow: hidden;
-	position: relative;
 
 }
 
@@ -272,7 +271,7 @@ fieldset {
 
 .callout-header {
   padding: 15px 15px;
-	background-color: #2B5AB3;
+	background-color: #274f9a;
   font-size: 30px;
 	color: white;
 }
