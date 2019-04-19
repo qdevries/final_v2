@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- links css -->
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+     <!-- links font and icon -->
+     <link href="https://fonts.googleapis.com/css?family=Hind|Montserrat" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+     <title>Research</title>
+    
+    <!-- responsive nav -->
+    
+</head>
+
+<body class="grid-container">
+	
+        <a class="skip-main" href="#main">Skip to main content</a>
+        
+        <h1 class="logo">Quin DeVries</h1>
+    
+        <nav class="header">
+            <div class="topnav" id="myTopnav">
+                <a href="contact_me.html">Contact Me</a>
+                <a href="research.html"class="current">Research</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="innovation_in_action.html">STRIDE</a>
+                <a href="index.html">Home</a>
+                <a href="javascript:void(0);" class="icon" onclick="resposiveNav()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+            </div>
+        </nav>    
+    </header>
+
+	<main class="grid-content">
+        <p id="main" tabindex="-1"></p> 
+		<div class="title">
+            <h1 id="content">Research</h1><br>
+            <h2>University of Michigan</h2>
+            <h3>Daley Front-End Design Lab </h3>
+		</div>
+
+
+<!--typewriter-->
+		<article class="project"> <!--change class-->
+            <img class="reserach_pic" src="images/dab_lab.jpg" alt="inter_rater_test">
+
+			<section class="project-item">
+				<div class="project-text-right">
+                    <p>I am currently a reserach assistant in the College of Engineering:</p><br>
+                    <p>Conducting user interviews to study front-end design practices and ideation. </p>
+                    <p>Comparing how design processes are being taught in engineering verses how they compare to the best practices in design.</p>
+                    <p>Analyzing previous user studies and quantitative research data to aid in the early stages of idea generation and concept selection.</p>
+                    <br>
+                    <b>Below you can find more information for Dr. Shanna Daly and Dr. Jin Woo Lee<b>
+				</div>
+            </section><br>
+        </article>
+
+    <!--accordion-->   
+    <button class="accordion">Shanna's Work</button>
+    <div class="panel">
+        <ul>Lee, J. W., Daly, S. R., Huang-Saad, A., Seifert, C. M., & Lutz, J. (2018). Using design strategies from microfluidic device patents to support idea generation. Microfluidics and Nanofluidics, 22(70).</ul>
+        <br>
+        <ul>Daly, S. R., McKilligan, S., & Studer, J., Murray, J., & Seifert, C.M. (2018). Innovative solutions through innovated problems. International Journal of Engineering Education, 34(2B), 695-707.</ul>
+        <br>
+        <ul>Silk, E., Daly, S. R., Jablokow, K., & Yilmaz, S. (2018). Incremental to radical ideas: Paradigm-relatedness metrics for investigating ideation creativity and diversity. International Journal of Design Creativity and Innovation, 1-20.	</ul>
+    </div>
+    
+    <button class="accordion">Jin's work </button>
+    <div class="panel">
+        <ul>Lee, J. W., Daly, S. R., Huang-Saad, A., Seifert, C. M., & Lutz, J. (2018). Using design strategies from microfluidic device patents to support idea generation. Microfluidics and Nanofluidics, 22(70).</ul>
+        <br>
+        <ul>Lee, J. W., Daly, S. R., Vadakumcherry, V. (2018). Exploring students’ product design concept generation and development practices. Proceedings of the 2018 ASEE Annual Conference & Exposition, Salt Lake City, UT. https://peer.asee.org/30494.</ul>
+        <br>
+        <ul>Silk, E., Daly, S. R., Jablokow, K., & Yilmaz, S. (2018). Incremental to radical ideas: Paradigm-relatedness metrics for investigating ideation creativity and diversity. International Journal of Design Creativity and Innovation, 1-20.	</ul>
+    </div>
+  
+</main>
+<footer class="footer">        
+    <i class="fas fa-pencil-ruler"></i> crafted by &copy; 2019 by Quin DeVries</div>
+</footer>
+</body>
+
+    <script>
+        function resposiveNav() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+            x.className += " responsive";
+            } else {
+            x.className = "topnav";
+            }
+        }
+
+        //accordion//
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+        });
+    }
+
+    </script>
+</html>
+
