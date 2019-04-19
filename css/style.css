@@ -164,10 +164,11 @@ fieldset {
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
-  background-color: rgb(36, 36, 36);
-  width: 500px;
-  height: 500px;
-	border: 1px solid rgb(rgb(0, 0, 0));
+  background-color: black;
+  width: 300px;
+  height: 300px;
+	border: 1px solid black;
+	margin:0;
 }
 
 /* This container is needed to position the front and back side */
@@ -201,7 +202,7 @@ fieldset {
 
 /* Style the back side */
 .flip-card-back {
-  background-color: rgb(black);
+  background-color: black;
   color: white;
   transform: rotateY(180deg);
 }
@@ -219,8 +220,8 @@ fieldset {
 }
 
 .skip-main:focus, a.skip-main:active {
-	color: #fff;
-	background-color:#000;
+	color: white;
+	background-color:black;
 	left: auto;
 	top: auto;
 	width: 30%;
@@ -251,35 +252,6 @@ fieldset {
 .header-nav-item{
 	color:white;
 	padding: 16px;
-}
-
-/*---footer---    LOTS OF PROBLEMS WTIH THIS
-.footer{
-	background-color: #333;
-	color: #eeeeee;
-	border-top: 1px solid white;
-	grid-area: footer;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	font-family: 'Montserrat', sans-serif;*/
-
-/*---header---
-.content{
-	grid-area: content;
-	grid-template-rows: 16px auto;
-	padding-left: 16px;
-	padding-right: 16px;
-	background-size: 8px;
-}
-
-.title{
-	grid-row-start: 1;
-	display: flex;
-	flex-direction: row;
-	justify-content: right;
-	align-items: center;
-	height: 1fr;
 }
 
 /*---callout---*/
@@ -366,7 +338,6 @@ fieldset {
 .gallery{
 	grid-row-start: 2;
 	display: grid;
-	grid-template-columns: 1fr 1fr;
 	grid-template-rows:  auto auto;
 	justify-items: center;
 	align-items: center;
@@ -454,7 +425,7 @@ fieldset {
 @media screen and (max-width: 600px) {
 .grid-container{
 	display:grid
-	grid-template-columns: 2fr, 1 fr;
+	grid-template-columns: 1fr, 1 fr;
 	grid-template-rows: 1fr, 3fr;}
 }
 
