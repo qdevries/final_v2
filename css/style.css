@@ -106,7 +106,6 @@ fieldset {
 .topnav {
 	background-color: #2B5AB3;
 	overflow: hidden;
-
 }
 
 /* Style the links inside the navigation bar */
@@ -123,14 +122,14 @@ fieldset {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-	background-color: rgb(80, 95, 233);
-	color: black;
+	background-color: rgb(32, 187, 128);
+	color: red;
 }
 
 /* Add an active class to highlight the current page */
 .current {
-	background-color: rgb(16, 38, 79);
-	color: black;
+	background-color: #4CAF50;
+	color: white;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -145,7 +144,7 @@ fieldset {
   background-color: transparent;
   width: 500px;
   height: 500px;
-	border: 1px solid rgb(16, 38, 79);
+	border: 1px solid #aa1919;
 }
 
 /* This container is needed to position the front and back side */
@@ -179,8 +178,8 @@ fieldset {
 
 /* Style the back side */
 .flip-card-back {
-  background-color: rgb(16, 38, 79);
-  color: white;
+  background-color: dodgerblue;
+  color: black;
   transform: rotateY(180deg);
 }
 
@@ -271,7 +270,7 @@ fieldset {
 
 .callout-header {
   padding: 15px 15px;
-	background-color: #274f9a;
+	background-color: #2B5AB3;
   font-size: 30px;
 	color: white;
 }
