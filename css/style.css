@@ -290,7 +290,7 @@ fieldset {
 }
 
 /*---project---*/
-.project{
+.aProject{
 	grid-row-start: 2;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -329,10 +329,6 @@ fieldset {
 	padding-left: 16px;
 	display: grid;
 	grid-template-columns: 40% 60%;
-}
-
-.project-img{
-	max-width: 100%
 }
 
 .gallery{
