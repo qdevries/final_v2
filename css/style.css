@@ -397,7 +397,7 @@ fieldset {
 
 .main-grid{
 	display: grid;
-	grid-template-columns: 216px auto;
+	grid-template-columns: auto auto;
 	grid-template-rows: 72px auto 72px;
 	grid-template-areas: 
 		"logo header"
