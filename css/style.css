@@ -386,9 +386,18 @@ fieldset {
 	grid-row: 3/4;
 }
 
+.gallery-item-i{
+	grid-column-start: 4/4;
+	grid-row: 3/4;
+}
+
+.gallery-img{
+	max-width: 100%
+}
+
 .main-grid{
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: 216px auto;
 	grid-template-rows: 72px auto 72px;
 	grid-template-areas: 
 		"logo header"
@@ -416,6 +425,7 @@ fieldset {
 @media screen and (max-width: 600px) {
 .grid-container{
 	display:grid
+	grid-template-columns: 1fr, 1 fr;
 	grid-template-rows: 1fr, 3fr;}
 }
 
