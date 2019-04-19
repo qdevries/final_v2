@@ -42,7 +42,7 @@
         
     </head>
 
-    <body class="grid-container">
+    <body class="grid-container" onload = "typeWriter()">
         <a class="skip-main" href="#main">Skip to main content</a>
         <h1 class="logo">Quin DeVries</h1>
 
@@ -67,14 +67,13 @@
             <h1 id="content">How can I get a hold of you?</h1><br>
         </div>
         
-        <body onload = "typeWriter()">
             <p id="demo"></p>
 
-            <article class="form-project"> <!--change class-->
+            <article class="form-project">
                 <form action="https://formspree.io/qdevries@umich.edu" method="POST">
                     <fieldset>
                         <label for="name">Full Name: </label>
-                        <input type="text" name="fullname" id="name"required><br>
+                        <input type="text" name="fullname" id="name" required><br>
                         <p class="errorMsg" id="nameError">Please enter your name above</p><br>
             
                         <label for ="email">Email: </label>
