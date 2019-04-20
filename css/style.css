@@ -57,6 +57,11 @@ a{
 	font-size: 10pt;
 }
 
+iframe{
+	border-width: 0px;
+}
+
+
 /*------accordion------*/
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
