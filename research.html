@@ -62,53 +62,53 @@
             </section><br>
         </article>
 
-    <!--accordion-->   
-        <button class="accordion">Shanna's Work</button>
-        <div class="panel">
-            <ul>
-                <li>Lee, J. W.,Daly, S. R., Huang-Saad, A., Seifert, C. M., & Lutz,J. (2018). Using design strategies from microfluidic device patents to support idea generation. Microfluidics and Nanofluidics, 22(70).</li>
-                <li>Daly, S. R., McKilligan, S., & Studer, J., Murray, J., & Seifert, C.M. (2018). Innovative solutions through innovated problems. International Journal of Engineering Education, 34(2B), 695-707.</li>
-                <li>Silk, E., Daly, S. R., Jablokow, K., & Yilmaz, S. (2018). Incremental to radical ideas: Paradigm-relatedness metrics for investigating ideation creativity and diversity. International Journal of Design Creativity and Innovation, 1-20.	</li>
-            </ul>
-        </div>
+        <!--accordion-->   
+            <button class="accordion">Shanna's Work</button>
+            <div class="panel">
+                <ul>
+                    <li>Lee, J. W.,Daly, S. R., Huang-Saad, A., Seifert, C. M., & Lutz,J. (2018). Using design strategies from microfluidic device patents to support idea generation. Microfluidics and Nanofluidics, 22(70).</li>
+                    <li>Daly, S. R., McKilligan, S., & Studer, J., Murray, J., & Seifert, C.M. (2018). Innovative solutions through innovated problems. International Journal of Engineering Education, 34(2B), 695-707.</li>
+                    <li>Silk, E., Daly, S. R., Jablokow, K., & Yilmaz, S. (2018). Incremental to radical ideas: Paradigm-relatedness metrics for investigating ideation creativity and diversity. International Journal of Design Creativity and Innovation, 1-20.	</li>
+                </ul>
+            </div>
+            
+            <button class="accordion">Jin's work </button>
+            <div class="panel">
+                <ul>
+                    <li>Lee, J. W., Daly, S. R., Huang-Saad, A., Seifert, C. M., & Lutz, J. (2018). Using design strategies from microfluidic device patents to support idea generation. Microfluidics and Nanofluidics, 22(70).</li>
+                    <li>Lee, J. W., Daly, S. R., Vadakumcherry, V. (2018). Exploring students’ product design concept generation and development practices. Proceedings of the 2018 ASEE Annual Conference & Exposition, Salt Lake City, UT. https://peer.asee.org/30494.</li>
+                    <li>Silk, E., Daly, S. R., Jablokow, K., & Yilmaz, S. (2018). Incremental to radical ideas: Paradigm-relatedness metrics for investigating ideation creativity and diversity. International Journal of Design Creativity and Innovation, 1-20.	</li>
+                </ul>
+            </div>
         
-        <button class="accordion">Jin's work </button>
-        <div class="panel">
-            <ul>
-                <li>Lee, J. W., Daly, S. R., Huang-Saad, A., Seifert, C. M., & Lutz, J. (2018). Using design strategies from microfluidic device patents to support idea generation. Microfluidics and Nanofluidics, 22(70).</li>
-                <li>Lee, J. W., Daly, S. R., Vadakumcherry, V. (2018). Exploring students’ product design concept generation and development practices. Proceedings of the 2018 ASEE Annual Conference & Exposition, Salt Lake City, UT. https://peer.asee.org/30494.</li>
-                <li>Silk, E., Daly, S. R., Jablokow, K., & Yilmaz, S. (2018). Incremental to radical ideas: Paradigm-relatedness metrics for investigating ideation creativity and diversity. International Journal of Design Creativity and Innovation, 1-20.	</li>
-            </ul>
-        </div>
-    
-    </main>
-    <footer>crafted by &copy; 2019 by Quin DeVries</footer>       
-    </body>
+        </main>
+        <footer>crafted by &copy; 2019 by Quin DeVries</footer>       
+        </body>
 
-    <script>
-        function resposiveNav() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-            x.className += " responsive";
-            } else {
-            x.className = "topnav";
+        <script>
+            function resposiveNav() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                x.className += " responsive";
+                } else {
+                x.className = "topnav";
+                }
             }
-        }
 
-        //accordion//
-        var acc = document.getElementsByClassName("accordion");
-        var i;
+            //accordion//
+            var acc = document.getElementsByClassName("accordion");
+            var i;
 
-        for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-            panel.style.display = "none";
-        } else {
-            panel.style.display = "block";
-        }
-        });
-        }
-    </script>
+            for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+            });
+            }
+        </script>
 </html>
