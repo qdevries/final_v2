@@ -59,6 +59,9 @@ a{
 
 iframe{
 	border-width: 0px;
+	border: none;
+	width: 560px;
+	height: 315px; 
 }
 
 
